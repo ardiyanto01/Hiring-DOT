@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Faceebok Login Test" time="34.285" tests="3" failures="0" errors="0">
+   <testsuite name="Faceebok Login Test" tests="3" failures="0" errors="0" time="34.285" skipped="0" timestamp="2024-01-03 18:09:40" hostname="macbookfajri - workgroup25" id="Test Suites/Faceebook automation Test/Faceebok Login Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/macbookfajri/Downloads/Projekan QA/Reports/20240103_180932/Faceebook automation Test/Faceebok Login Test/20240103_180932"/>
+         <property name="logFiles" value="/Users/macbookfajri/Downloads/Projekan QA/Reports/20240103_180932/Faceebook automation Test/Faceebok Login Test/20240103_180932/execution0.log"/>
+         <property name="attachments" value="/Users/macbookfajri/Downloads/Projekan QA/Reports/20240103_180932/Faceebook automation Test/Faceebok Login Test/20240103_180932/1704280194492.png, /Users/macbookfajri/Downloads/Projekan QA/Reports/20240103_180932/Faceebook automation Test/Faceebok Login Test/20240103_180932/1704280205017.png, /Users/macbookfajri/Downloads/Projekan QA/Reports/20240103_180932/Faceebook automation Test/Faceebok Login Test/20240103_180932/1704280213660.png"/>
+         <property name="hostName" value="macbookfajri - workgroup25"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.43.119"/>
+         <property name="sessionId" value="d2441f5b1639f4f800c15d174a094109"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Automation UI FaceBook/negative login invalid username" time="15.329" classname="Test Cases/Automation UI FaceBook/negative login invalid username" status="PASSED">
+         <system-out><![CDATA[2024-01-03 18:09:40 - [TEST_CASE][PASSED] - Test Cases/Automation UI FaceBook/negative login invalid username: Test Cases/Automation UI FaceBook/negative login invalid username
+
+2024-01-03 18:09:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-03 18:09:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-03 18:09:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-03 18:09:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-03 18:09:48 - [TEST_STEP][PASSED] - navigateToUrl("https://m.facebook.com/login/?"): Navigate to 'https://m.facebook.com/login/?' successfully
+
+2024-01-03 18:09:51 - [MESSAGE][PASSED] - Navigate to 'https://m.facebook.com/login/?' successfully
+
+2024-01-03 18:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/object invalid username/Page_Log in to Facebook  Facebook/input_Change settings_email"), "invalid username"): Text 'invalid username' is set on object 'Object Repository/object invalid username/Page_Log in to Facebook  Facebook/input_Change settings_email'
+
+2024-01-03 18:09:53 - [MESSAGE][PASSED] - Text 'invalid username' is set on object 'Object Repository/object invalid username/Page_Log in to Facebook  Facebook/input_Change settings_email'
+
+2024-01-03 18:09:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/object invalid username/Page_Log in to Facebook  Facebook/input_Change settings_pass"), "9wKsQOjaegKGMxPYQ2zjIg=="): Text ****** has been set on object 'Object Repository/object invalid username/Page_Log in to Facebook  Facebook/input_Change settings_pass'
+
+2024-01-03 18:09:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/object invalid username/Page_Log in to Facebook  Facebook/input_Change settings_pass'
+
+2024-01-03 18:09:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/object invalid username/Page_Log in to Facebook  Facebook/button_Log In")): Object: 'Object Repository/object invalid username/Page_Log in to Facebook  Facebook/button_Log In' is clicked on
+
+2024-01-03 18:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/object invalid username/Page_Log in to Facebook  Facebook/button_Log In' is clicked on
+
+2024-01-03 18:09:54 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2024-01-03 18:09:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-01-03 18:09:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/macbookfajri/Downloads/Projekan QA/Reports/20240103_180932/Faceebook automation Test/Faceebok Login Test/20240103_180932/1704280194492.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automation UI FaceBook/negative login invalid password" time="9.509" classname="Test Cases/Automation UI FaceBook/negative login invalid password" status="PASSED">
+         <system-out><![CDATA[2024-01-03 18:09:56 - [TEST_CASE][PASSED] - Test Cases/Automation UI FaceBook/negative login invalid password: Test Cases/Automation UI FaceBook/negative login invalid password
+
+2024-01-03 18:09:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-03 18:09:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-03 18:09:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-03 18:09:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-03 18:10:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-03 18:10:00 - [TEST_STEP][PASSED] - navigateToUrl("https://m.facebook.com/login/?"): Navigate to 'https://m.facebook.com/login/?' successfully
+
+2024-01-03 18:10:02 - [MESSAGE][PASSED] - Navigate to 'https://m.facebook.com/login/?' successfully
+
+2024-01-03 18:10:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/invalid login password/Page_Log in to Facebook  Facebook/input_Change settings_email"), "08990404080"): Text '08990404080' is set on object 'Object Repository/invalid login password/Page_Log in to Facebook  Facebook/input_Change settings_email'
+
+2024-01-03 18:10:03 - [MESSAGE][PASSED] - Text '08990404080' is set on object 'Object Repository/invalid login password/Page_Log in to Facebook  Facebook/input_Change settings_email'
+
+2024-01-03 18:10:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/invalid login password/Page_Log in to Facebook  Facebook/input_Change settings_pass"), "I7kTpMBvI8boee+G72v/2Q=="): Text ****** has been set on object 'Object Repository/invalid login password/Page_Log in to Facebook  Facebook/input_Change settings_pass'
+
+2024-01-03 18:10:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/invalid login password/Page_Log in to Facebook  Facebook/input_Change settings_pass'
+
+2024-01-03 18:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/invalid login password/Page_Log in to Facebook  Facebook/button_Log In")): Object: 'Object Repository/invalid login password/Page_Log in to Facebook  Facebook/button_Log In' is clicked on
+
+2024-01-03 18:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/invalid login password/Page_Log in to Facebook  Facebook/button_Log In' is clicked on
+
+2024-01-03 18:10:04 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2024-01-03 18:10:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-01-03 18:10:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/macbookfajri/Downloads/Projekan QA/Reports/20240103_180932/Faceebook automation Test/Faceebok Login Test/20240103_180932/1704280205017.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Automation UI FaceBook/Positive Login Facebook" time="8.492" classname="Test Cases/Automation UI FaceBook/Positive Login Facebook" status="PASSED">
+         <system-out><![CDATA[2024-01-03 18:10:05 - [TEST_CASE][PASSED] - Test Cases/Automation UI FaceBook/Positive Login Facebook: Test Cases/Automation UI FaceBook/Positive Login Facebook
+
+2024-01-03 18:10:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-01-03 18:10:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2024-01-03 18:10:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-01-03 18:10:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-03 18:10:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-01-03 18:10:09 - [TEST_STEP][PASSED] - navigateToUrl("https://m.facebook.com/login/?"): Navigate to 'https://m.facebook.com/login/?' successfully
+
+2024-01-03 18:10:11 - [MESSAGE][PASSED] - Navigate to 'https://m.facebook.com/login/?' successfully
+
+2024-01-03 18:10:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login positive baru/Page_Log in to Facebook  Facebook/input_Change settings_email"), "08990404080"): Text '08990404080' is set on object 'Object Repository/login positive baru/Page_Log in to Facebook  Facebook/input_Change settings_email'
+
+2024-01-03 18:10:12 - [MESSAGE][PASSED] - Text '08990404080' is set on object 'Object Repository/login positive baru/Page_Log in to Facebook  Facebook/input_Change settings_email'
+
+2024-01-03 18:10:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/login positive baru/Page_Log in to Facebook  Facebook/input_Change settings_pass"), "9wKsQOjaegKGMxPYQ2zjIg=="): Text ****** has been set on object 'Object Repository/login positive baru/Page_Log in to Facebook  Facebook/input_Change settings_pass'
+
+2024-01-03 18:10:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login positive baru/Page_Log in to Facebook  Facebook/input_Change settings_pass'
+
+2024-01-03 18:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login positive baru/Page_Log in to Facebook  Facebook/button_Log In")): Object: 'Object Repository/login positive baru/Page_Log in to Facebook  Facebook/button_Log In' is clicked on
+
+2024-01-03 18:10:13 - [MESSAGE][PASSED] - Object: 'Object Repository/login positive baru/Page_Log in to Facebook  Facebook/button_Log In' is clicked on
+
+2024-01-03 18:10:13 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2024-01-03 18:10:14 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2024-01-03 18:10:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/macbookfajri/Downloads/Projekan QA/Reports/20240103_180932/Faceebook automation Test/Faceebok Login Test/20240103_180932/1704280213660.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-03 18:09:40 - [TEST_SUITE][PASSED] - Faceebok Login Test: Test Cases/Automation UI FaceBook/Positive Login Facebook]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

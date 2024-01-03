@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Faceebok Login Test,Chrome 120.0.0.0,,,2024-01-03 18:09:40,2024-01-03 18:10:14,34.285s,PASSED
+,,,,,,,
+Test Cases/Automation UI FaceBook/negative login invalid username,Chrome 120.0.0.0,melakukan testing login dengan username invalid dan password valid,,2024-01-03 18:09:40,2024-01-03 18:09:56,15.329s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-03 18:09:41,2024-01-03 18:09:48,6.729s,PASSED
+"navigateToUrl(""https://m.facebook.com/login/?"")",Chrome 120.0.0.0,,,2024-01-03 18:09:48,2024-01-03 18:09:51,2.549s,PASSED
+"setText(findTestObject(""Object Repository/object invalid username/Page_Log in to Facebook  Facebook/input_Change settings_email""), ""invalid username"")",Chrome 120.0.0.0,,,2024-01-03 18:09:51,2024-01-03 18:09:53,2.008s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/object invalid username/Page_Log in to Facebook  Facebook/input_Change settings_pass""), ""9wKsQOjaegKGMxPYQ2zjIg=="")",Chrome 120.0.0.0,,,2024-01-03 18:09:53,2024-01-03 18:09:53,0.715s,PASSED
+"click(findTestObject(""Object Repository/object invalid username/Page_Log in to Facebook  Facebook/button_Log In""))",Chrome 120.0.0.0,,,2024-01-03 18:09:53,2024-01-03 18:09:54,0.627s,PASSED
+takeFullPageScreenshot(),Chrome 120.0.0.0,,,2024-01-03 18:09:54,2024-01-03 18:09:56,1.895s,PASSED
+,,,,,,,
+Test Cases/Automation UI FaceBook/negative login invalid password,Chrome 120.0.0.0,melakukan login dengan valid password tetapi invalid password,,2024-01-03 18:09:56,2024-01-03 18:10:05,9.509s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-03 18:09:57,2024-01-03 18:10:00,3.233s,PASSED
+"navigateToUrl(""https://m.facebook.com/login/?"")",Chrome 120.0.0.0,,,2024-01-03 18:10:00,2024-01-03 18:10:02,2.050s,PASSED
+"setText(findTestObject(""Object Repository/invalid login password/Page_Log in to Facebook  Facebook/input_Change settings_email""), ""08990404080"")",Chrome 120.0.0.0,,,2024-01-03 18:10:02,2024-01-03 18:10:03,1.274s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/invalid login password/Page_Log in to Facebook  Facebook/input_Change settings_pass""), ""I7kTpMBvI8boee+G72v/2Q=="")",Chrome 120.0.0.0,,,2024-01-03 18:10:03,2024-01-03 18:10:04,0.696s,PASSED
+"click(findTestObject(""Object Repository/invalid login password/Page_Log in to Facebook  Facebook/button_Log In""))",Chrome 120.0.0.0,,,2024-01-03 18:10:04,2024-01-03 18:10:04,0.662s,PASSED
+takeFullPageScreenshot(),Chrome 120.0.0.0,,,2024-01-03 18:10:04,2024-01-03 18:10:05,0.848s,PASSED
+,,,,,,,
+Test Cases/Automation UI FaceBook/Positive Login Facebook,Chrome 120.0.0.0,login facebok data valid,,2024-01-03 18:10:05,2024-01-03 18:10:14,8.492s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2024-01-03 18:10:06,2024-01-03 18:10:09,2.881s,PASSED
+"navigateToUrl(""https://m.facebook.com/login/?"")",Chrome 120.0.0.0,,,2024-01-03 18:10:09,2024-01-03 18:10:11,2.063s,PASSED
+"setText(findTestObject(""Object Repository/login positive baru/Page_Log in to Facebook  Facebook/input_Change settings_email""), ""08990404080"")",Chrome 120.0.0.0,,,2024-01-03 18:10:11,2024-01-03 18:10:12,1.122s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/login positive baru/Page_Log in to Facebook  Facebook/input_Change settings_pass""), ""9wKsQOjaegKGMxPYQ2zjIg=="")",Chrome 120.0.0.0,,,2024-01-03 18:10:12,2024-01-03 18:10:13,0.511s,PASSED
+"click(findTestObject(""Object Repository/login positive baru/Page_Log in to Facebook  Facebook/button_Log In""))",Chrome 120.0.0.0,,,2024-01-03 18:10:13,2024-01-03 18:10:13,0.559s,PASSED
+takeFullPageScreenshot(),Chrome 120.0.0.0,,,2024-01-03 18:10:13,2024-01-03 18:10:14,0.741s,PASSED

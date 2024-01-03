@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>login facebok data valid</description>
+   <name>Positive Login Facebook</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd540831-b897-49aa-8b3f-f9d404f97d92</testCaseGuid>
+</TestCaseEntity>

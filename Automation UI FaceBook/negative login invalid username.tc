@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>melakukan testing login dengan username invalid dan password valid</description>
+   <name>negative login invalid username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b781084a-63bd-4655-8bbd-b855c6aea7df</testCaseGuid>
+</TestCaseEntity>
